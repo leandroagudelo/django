@@ -1,0 +1,15 @@
+<h1>Home</h1>
+<p>Bievenido {{ name }} {{ lastname }}</p>
+
+{% if status == "SUCCESS" %}
+    <strong>{{ msg_status }}</strong>
+{% elif status == "FAILURE" %}
+    <strong>{{ msg_status }}</strong>
+{% endif %}
+
+<form action="/save_poll/" method="post">
+    {% csrf_token %}
+    <label>Pregunta</label>
+    <textarea name="question"></textarea>
+    <button type="submit">Guardar</button>
+</form>

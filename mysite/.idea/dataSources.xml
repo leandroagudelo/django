@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3676637790">
+    <data-source source="LOCAL" name="Django default" uuid="7ebc2c25-57d3-4fea-bc34-8f38e7870d43">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\LEANDRO\dropbox\Leandro (2)\Django\ejemplo1\mysite\db.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>$USER_HOME$/Library/Preferences/PyCharm30/jdbc-drivers/xerial-sqlite-license.txt:/Users/hernanchodiaz/Library/Preferences/PyCharm30/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar:</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Django default" uuid="1962129c-f326-45f2-8094-70fa3b3077df">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db.sqlite3</jdbc-url>
+      <libraries>
+        <library>
+          <url>$USER_HOME$/Library/Preferences/PyCharm30/jdbc-drivers/xerial-sqlite-license.txt:/Users/hernanchodiaz/Library/Preferences/PyCharm30/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar:</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
